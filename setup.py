@@ -16,7 +16,9 @@ setup(
     url='https://github.com/rogervila/python_is_valid_date',
     download_url='https://github.com/rogervila/python_is_valid_date/archive/CURRENT_VERSION.tar.gz',
     keywords=['valid date', 'check date', 'validate date'],
-    install_requires=[],
+    install_requires=[
+        'python-dateutil>=2,<3'
+    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
