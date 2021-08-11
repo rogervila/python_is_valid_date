@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='is_valid_date',
     packages=['is_valid_date'],
-    version='0.1.0',
+    version='CURRENT_VERSION',
     license='MIT',
     description='Check if a date is valid',
     long_description=long_description,
@@ -14,7 +14,7 @@ setup(
     author='Roger Vilà',
     author_email='rogervila@me.com',
     url='https://github.com/rogervila/python_is_valid_date',
-    download_url='https://github.com/rogervila/python_is_valid_date/archive/0.1.0.tar.gz',
+    download_url='https://github.com/rogervila/python_is_valid_date/archive/CURRENT_VERSION.tar.gz',
     keywords=['valid date', 'check date', 'validate date'],
     install_requires=[],
     classifiers=[
