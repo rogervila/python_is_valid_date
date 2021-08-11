@@ -32,6 +32,7 @@ jobs:
         args: >
           -Dsonar.organization=rogervila-github
           -Dsonar.projectKey=rogervila_python_is_valid_date
+          -Dsonar.python.version=3
           -Dsonar.python.coverage.reportPaths=coverage.xml
           -Dsonar.sources=.
           -Dsonar.exclusions=tests/**
